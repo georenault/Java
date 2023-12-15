@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Salaire {
 
-	private static final double TXCRDS = 0.0349;
-	private static final double TXCSG = 0.0615;
+	protected static final double TXCRDS = 0.0349;
+	protected static final double TXCSG = 0.0423;
 	private static final double TXASSMALADIE = 0.0095;
-	private static final double TXASSVIELLESSE = 0.0844;
+	private static final double TXASSVIELLESSE = 0.0324;
 	private static final double TXCHOMAGE = 0.0305;
 	private static final double TXRETCOMPL = 0.0381;
 	private static final double TXCOTISAGFF = 0.0102;
 
 //Taux horaires spécifiques
-	private static final double TXHORAIRECADRE = 20.0;
+	private static final double TXHORAIRECADRE = 25.0;
 	private static final double TXHORAIREAGENTMAITRISE = 15.0;
 	private static final double TXHORAIREEMPLOYEBUREAU = 10.0;
 
 //Calcul total des cotisations
-	private static final double TOTALCOTISATIONS = TXCRDS + TXCSG + TXASSMALADIE + TXASSVIELLESSE + TXCHOMAGE
+	protected static final double TOTALCOTISATIONS = TXCRDS + TXCSG + TXASSMALADIE + TXASSVIELLESSE + TXCHOMAGE
 			+ TXRETCOMPL + TXCOTISAGFF;
 
 	public static void main(String[] args) {
