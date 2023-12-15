@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ffotre
+ *
+ */
+module Hello {
+}
