@@ -26,7 +26,8 @@ public class Salaire {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println(var);
+		System.out.println("Le contenu de var est " + var);
+		System.out.println("Voila voila");
 
 //Saisie des infos connues sur l'employé
 		System.out.println("Nom de l'employé");
