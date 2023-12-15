@@ -6,7 +6,7 @@ public class Salaire {
 
 	protected static final double TXCRDS = 0.0349;
 	
-	private String var = "fsdg";
+	private static String var = "fsdg";
 	protected static final double TXCSG = 0.0423;
 	private static final double TXASSMALADIE = 0.0095;
 	private static final double TXASSVIELLESSE = 0.0324;
@@ -26,6 +26,8 @@ public class Salaire {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
+		System.out.println(var);
+		
 //Saisie des infos connues sur l'employé
 		System.out.println("Nom de l'employé");
 		String nom = scan.nextLine();
