@@ -28,6 +28,7 @@ public class Salaire {
 
 		System.out.println("Le contenu de var est " + var);
 		System.out.println("Voila voila");
+
 //Saisie des infos connues sur l'employé
 		System.out.println("Nom de l'employé");
 		String nom = scan.nextLine();
@@ -52,6 +53,8 @@ public class Salaire {
 			tauxHoraire = TXHORAIREEMPLOYEBUREAU;
 		}
 
+		System.out.println("Modif sur master");
+		
 		//Calcul du salaire de base par rapport aux heures travaillées et du taux horaire + majorations.
 		double salaireBase = heuresTravaillees * tauxHoraire;
 		double salaireTotal;
