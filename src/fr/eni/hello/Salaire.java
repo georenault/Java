@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Salaire {
 
 	protected static final double TXCRDS = 0.0349;
+	
+	private String var = "fsdg";
 	protected static final double TXCSG = 0.0423;
 	private static final double TXASSMALADIE = 0.0095;
 	private static final double TXASSVIELLESSE = 0.0324;
